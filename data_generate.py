@@ -13,8 +13,8 @@ import numpy as np
 from torch.autograd import Variable
 from torch.utils.data import Dataset
 
-cv_trn_path = '/home1/rhhHD/Two-stream/cv_trn.hdf5'
-cv_tst_path = '/home1/rhhHD/Two-stream/cv_tst.hdf5'
+cv_trn_path = '/Users/qujianning/Desktop/final_project/code/SKELETON-BASED_ACTION_RECOGNITION_WITH_CONVOLUTIONAL_NEURAL_NETWORKS/dataset/cv_trn.hdf5'
+cv_tst_path = '/Users/qujianning/Desktop/final_project/code/SKELETON-BASED_ACTION_RECOGNITION_WITH_CONVOLUTIONAL_NEURAL_NETWORKS/dataset/cv_tst.hdf5'
 
 
 class NTUData(Dataset):
