@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
+"""
+    @author: LeslieQu
+    @date: 2021-03-01
+"""
 import torch
 import h5py
 import random
@@ -11,8 +15,6 @@ from torch.utils.data import Dataset
 
 cv_trn_path = '/home1/rhhHD/Two-stream/cv_trn.hdf5'
 cv_tst_path = '/home1/rhhHD/Two-stream/cv_tst.hdf5'
-# cv_trn_path = 'D:\Hren Files\My Documents\pycharm projects\毕业设计\BiShe\BS\datantu\cross_view\cv_trn.hdf5'
-# cv_tst_path = 'D:\Hren Files\My Documents\pycharm projects\毕业设计\BiShe\BS\datantu\cross_view\cv_tst.hdf5'
 
 
 class NTUData(Dataset):
